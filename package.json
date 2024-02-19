@@ -13,7 +13,7 @@
     "coverall": "cat ./test/unit/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "coverage": "npm run test && npm run coverall",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
-    "docs": "cd docs && gitbook serve",
+    "docs": "",
     "unit": "karma start test/unit/karma.conf.js",
     "e2e": "node test/e2e/runner.js",
     "pretest": "",
@@ -30,7 +30,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/icebob/vue-touch-keyboard.git"
+    "url": "https://github.com/MrCoffee25/vue-touch-keyboard.git"
   },
   "files": [
     "dist/vue-touch-keyboard.js",
