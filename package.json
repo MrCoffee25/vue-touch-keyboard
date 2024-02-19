@@ -9,7 +9,7 @@
     "build": "webpack --progress --config webpack.build.config.js",
     "dev": "webpack-dev-server --config webpack.dev.config.js --inline --hot --content-base dev/",
     "lint": "",
-    "deps": "npm-check -u",
+    "deps": "",
     "coverall": "cat ./test/unit/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "coverage": "npm run test && npm run coverall",
     "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
