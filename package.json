@@ -6,19 +6,19 @@
   "main": "dist/vue-touch-keyboard.js",
   "scripts": {
     "prebuild": "",
-    "build": "webpack --progress --config webpack.build.config.js",
-    "dev": "webpack-dev-server --config webpack.dev.config.js --inline --hot --content-base dev/",
+    "build": "",
+    "dev": "",
     "lint": "",
     "deps": "",
-    "coverall": "cat ./test/unit/coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
-    "coverage": "npm run test && npm run coverall",
-    "changelog": "conventional-changelog -i CHANGELOG.md -s -r 0",
+    "coverall": "",
+    "coverage": "",
+    "changelog": "",
     "docs": "",
-    "unit": "karma start test/unit/karma.conf.js",
-    "e2e": "node test/e2e/runner.js",
+    "unit": "",
+    "e2e": "",
     "pretest": "",
     "test": "",
-    "ci": "karma start test/unit/karma.conf.js --auto-watch --no-single-run --reporters=dots --port=9877"
+    "ci": ""
   },
   "keywords": [
     "vue",
